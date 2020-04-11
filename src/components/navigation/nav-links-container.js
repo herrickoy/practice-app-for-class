@@ -14,15 +14,17 @@ export default class NavContainer extends Component {
       return (
               
       <div className="nav-wrapper">
-        <div className="nav-links">
-          <NavLink exact to="/">HOME</NavLink>
-        </div>
-        <div className="nav-links">
-          <NavLink to="/about">ABOUT</NavLink>
-        </div>
-        <div className="nav-links">
-          <NavLink to="/">CONTACT</NavLink>
-        </div>
+
+
+          <div className="nav-links">
+            <NavLink exact to="/">HOME</NavLink>
+          </div>
+          <div className="nav-links">
+            <NavLink to="/about">ABOUT</NavLink>
+          </div>
+          <div className="nav-links">
+            <NavLink to="/contact">CONTACT</NavLink>
+          </div>
           
       </div>
       )

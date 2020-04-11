@@ -1,0 +1,59 @@
+.contact-page-wrapper {
+    width: 80vw;
+    background-color: white;
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        padding-top: 15px;
+    }
+
+    .forms-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        height: 80vh;
+
+        .box {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 3px lightblue;
+            border-radius: 3px;
+            background-color: whitesmoke;
+            max-height: 30px;
+        }
+
+        .ptags {
+            display: flex;
+            align-items: flex-end;
+            padding-top: 20px;
+            padding-bottom: -20px;
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 30px;
+        }
+
+        .one-column {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .text-area-style {
+                width: 40vw;
+                height: 10vh;
+                background-image: linear-gradient(to bottom right, rgb(216, 110, 230), rgb(255, 121, 4));
+            }
+        }
+
+        .contact-button {
+            display: flex;
+            justify-content: center;
+            width: 10vw;
+        }
+    }
+}
